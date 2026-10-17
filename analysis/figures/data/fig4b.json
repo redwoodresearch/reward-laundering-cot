@@ -1,0 +1,218 @@
+{
+ "untrained": {
+  "alternating_case": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "end_of_sentence": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "ignore_question": {
+   "compliance": 0.33,
+   "ci": [
+    0.07,
+    0.7
+   ]
+  },
+  "lowercase_thinking": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "meow_between_words": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "multiple_word_suppression": {
+   "compliance": 0.27,
+   "ci": [
+    0.0,
+    0.62
+   ]
+  },
+  "repeat_sentences": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "uppercase_thinking": {
+   "compliance": 0.52,
+   "ci": [
+    0.11,
+    1.0
+   ]
+  },
+  "word_suppression": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "score": {
+   "compliance": 0.12,
+   "ci": [
+    0.06,
+    0.2
+   ]
+  }
+ },
+ "rs seed 1": {
+  "alternating_case": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "end_of_sentence": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "ignore_question": {
+   "compliance": 0.41,
+   "ci": [
+    0.07,
+    0.81
+   ]
+  },
+  "lowercase_thinking": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "meow_between_words": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "multiple_word_suppression": {
+   "compliance": 0.46,
+   "ci": [
+    0.08,
+    0.96
+   ]
+  },
+  "repeat_sentences": {
+   "compliance": 1.4,
+   "ci": [
+    0.67,
+    2.18
+   ]
+  },
+  "uppercase_thinking": {
+   "compliance": 2.07,
+   "ci": [
+    1.22,
+    3.04
+   ]
+  },
+  "word_suppression": {
+   "compliance": 0.27,
+   "ci": [
+    0.0,
+    0.62
+   ]
+  },
+  "score": {
+   "compliance": 0.51,
+   "ci": [
+    0.37,
+    0.66
+   ]
+  }
+ },
+ "rs seed 2": {
+  "alternating_case": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "end_of_sentence": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "ignore_question": {
+   "compliance": 0.8,
+   "ci": [
+    0.34,
+    1.36
+   ]
+  },
+  "lowercase_thinking": {
+   "compliance": 0.22,
+   "ci": [
+    0.0,
+    0.56
+   ]
+  },
+  "meow_between_words": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "multiple_word_suppression": {
+   "compliance": 0.0,
+   "ci": [
+    0.0,
+    0.0
+   ]
+  },
+  "repeat_sentences": {
+   "compliance": 9.57,
+   "ci": [
+    7.86,
+    11.25
+   ]
+  },
+  "uppercase_thinking": {
+   "compliance": 4.22,
+   "ci": [
+    3.0,
+    5.51
+   ]
+  },
+  "word_suppression": {
+   "compliance": 0.19,
+   "ci": [
+    0.0,
+    0.5
+   ]
+  },
+  "score": {
+   "compliance": 1.67,
+   "ci": [
+    1.42,
+    1.93
+   ]
+  }
+ }
+}

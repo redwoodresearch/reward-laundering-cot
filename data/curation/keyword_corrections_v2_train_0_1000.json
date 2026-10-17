@@ -1,0 +1,3 @@
+{"reason": "same-sense forms policy (draft-3): add the missing plural 'persons' where 'people/person' is selected (train-0074 and 0398 already list it); remove 'changes' from money-change keywords (the requested quantity is change returned, an uncountable sense; 'changes' = alterations is a different sense; train-0800 already lists only 'change'). Applied to every selected row of that kind in this block (2026-10-09, user-approved recommendation 2).",
+ "add_forms": {"gsm8k-train-0330": ["persons"], "gsm8k-train-0563": ["persons"], "gsm8k-train-0010": ["persons"]},
+ "remove_forms": {"gsm8k-train-0195": ["changes"], "gsm8k-train-0758": ["changes"], "gsm8k-train-0712": ["changes"]}}

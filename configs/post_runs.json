@@ -1,0 +1,2850 @@
+[
+ {
+  "run": "gsm8k_gate_grpo_seed0_e3_20261008_184834",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "3"
+  ],
+  "role": "GRPO, Repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=gsm8k_gate_grpo_seed0_e3_20261008_184834"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_grpo_e3_seed1",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "3"
+  ],
+  "role": "GRPO, Repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_grpo_e3_seed1"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_grpo_e3_seed2",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "3"
+  ],
+  "role": "GRPO, Repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_grpo_e3_seed2"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_grpo_e3_seed3",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "3"
+  ],
+  "role": "GRPO, Repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_grpo_e3_seed3"
+  ]
+ },
+ {
+  "run": "task33_lowercase_thinking_k1_grpo_seed0",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Lowercase",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_lowercase_thinking_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_lowercase_thinking_k1_grpo_seed0"
+  ]
+ },
+ {
+  "run": "task33_lowercase_thinking_k1_grpo_seed1",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Lowercase",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_lowercase_thinking_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_lowercase_thinking_k1_grpo_seed1"
+  ]
+ },
+ {
+  "run": "task33_lowercase_thinking_k1_grpo_seed2",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Lowercase",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_lowercase_thinking_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_lowercase_thinking_k1_grpo_seed2"
+  ]
+ },
+ {
+  "run": "task33_lowercase_thinking_k1_grpo_seed3",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Lowercase",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_lowercase_thinking_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_lowercase_thinking_k1_grpo_seed3"
+  ]
+ },
+ {
+  "run": "task33_ok_start_sentence_k1_grpo_seed0",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, \"OK\" at sentence start",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_ok_start_sentence_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_ok_start_sentence_k1_grpo_seed0"
+  ]
+ },
+ {
+  "run": "task33_ok_start_sentence_k1_grpo_seed1",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, \"OK\" at sentence start",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_ok_start_sentence_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_ok_start_sentence_k1_grpo_seed1"
+  ]
+ },
+ {
+  "run": "task33_ok_start_sentence_k1_grpo_seed2",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, \"OK\" at sentence start",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_ok_start_sentence_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_ok_start_sentence_k1_grpo_seed2"
+  ]
+ },
+ {
+  "run": "task33_ok_start_sentence_k1_grpo_seed3",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, \"OK\" at sentence start",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_ok_start_sentence_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_ok_start_sentence_k1_grpo_seed3"
+  ]
+ },
+ {
+  "run": "task33_word_suppression_k2_grpo_seed0",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "6"
+  ],
+  "role": "GRPO, Word suppression",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_word_suppression_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 2}",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_word_suppression_k2_grpo_seed0"
+  ]
+ },
+ {
+  "run": "task33_word_suppression_k2_grpo_seed1",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "6"
+  ],
+  "role": "GRPO, Word suppression",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_word_suppression_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 2}",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_word_suppression_k2_grpo_seed1"
+  ]
+ },
+ {
+  "run": "task33_word_suppression_k2_grpo_seed2",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "6"
+  ],
+  "role": "GRPO, Word suppression",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_word_suppression_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 2}",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_word_suppression_k2_grpo_seed2"
+  ]
+ },
+ {
+  "run": "task33_word_suppression_k2_grpo_seed3",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5",
+   "6"
+  ],
+  "role": "GRPO, Word suppression",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_word_suppression_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 2}",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_word_suppression_k2_grpo_seed3"
+  ]
+ },
+ {
+  "run": "task33_meow_between_words_k1_grpo_seed0",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Meow between words",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_meow_between_words_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_meow_between_words_k1_grpo_seed0"
+  ]
+ },
+ {
+  "run": "task33_meow_between_words_k1_grpo_seed1",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Meow between words",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_meow_between_words_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_meow_between_words_k1_grpo_seed1"
+  ]
+ },
+ {
+  "run": "task33_meow_between_words_k1_grpo_seed2",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Meow between words",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_meow_between_words_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_meow_between_words_k1_grpo_seed2"
+  ]
+ },
+ {
+  "run": "task33_meow_between_words_k1_grpo_seed3",
+  "figures": [
+   "1",
+   "2",
+   "2b",
+   "5"
+  ],
+  "role": "GRPO, Meow between words",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_meow_between_words_rl_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task33_meow_between_words_k1_grpo_seed3"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_grpo_shuffled_e3_seed0",
+  "figures": [
+   "3"
+  ],
+  "role": "shuffled reward, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo_shuffled",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_grpo_shuffled_e3_seed0"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_grpo_shuffled_e3_seed1",
+  "figures": [
+   "3"
+  ],
+  "role": "shuffled reward, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo_shuffled",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_grpo_shuffled_e3_seed1"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_grpo_shuffled_e3_seed2",
+  "figures": [
+   "3"
+  ],
+  "role": "shuffled reward, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo_shuffled",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_grpo_shuffled_e3_seed2"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_grpo_shuffled_e3_seed3",
+  "figures": [
+   "3"
+  ],
+  "role": "shuffled reward, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo_shuffled",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_grpo_shuffled_e3_seed3"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_on_policy_sum_e3_seed0",
+  "figures": [
+   "3"
+  ],
+  "role": "on-policy SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_on_policy",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_on_policy_sum_e3_seed0"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_on_policy_sum_e3_seed1",
+  "figures": [
+   "3"
+  ],
+  "role": "on-policy SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_on_policy",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_on_policy_sum_e3_seed1"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_on_policy_sum_e3_seed2",
+  "figures": [
+   "3"
+  ],
+  "role": "on-policy SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_on_policy",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_on_policy_sum_e3_seed2"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_on_policy_sum_e3_seed3",
+  "figures": [
+   "3"
+  ],
+  "role": "on-policy SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_on_policy",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_on_policy_sum_e3_seed3"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_base_rollouts_sum_e3_seed0",
+  "figures": [
+   "3"
+  ],
+  "role": "base-rollout SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_base_rollouts",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_base_rollouts_sum_e3_seed0"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_base_rollouts_sum_e3_seed1",
+  "figures": [
+   "3"
+  ],
+  "role": "base-rollout SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_base_rollouts",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_base_rollouts_sum_e3_seed1"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_base_rollouts_sum_e3_seed2",
+  "figures": [
+   "3"
+  ],
+  "role": "base-rollout SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_base_rollouts",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_base_rollouts_sum_e3_seed2"
+  ]
+ },
+ {
+  "run": "twoturn_gsm8k_sft_base_rollouts_sum_e3_seed3",
+  "figures": [
+   "3"
+  ],
+  "role": "base-rollout SFT, repeat sentences",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=gsm8k_gate",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=sft_base_rollouts",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=3",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=twoturn_gsm8k_sft_base_rollouts_sum_e3_seed3"
+  ]
+ },
+ {
+  "run": "direct_grpo_r2",
+  "figures": [
+   "3"
+  ],
+  "role": "direct compliance reward (MMLU-Pro multiple choice)",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "n_steps=68",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lora_rank=32",
+   "seed=0",
+   "eval_every=17",
+   "eval_n_problems=100",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "eval_split=eval",
+   "run_name=direct_grpo_r2"
+  ]
+ },
+ {
+  "run": "task40_direct_grpo_seed1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct compliance reward (MMLU-Pro multiple choice)",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=17",
+   "eval_n_problems=100",
+   "eval_split=eval",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task40_direct_grpo_seed1"
+  ]
+ },
+ {
+  "run": "task40_direct_grpo_seed2",
+  "figures": [
+   "3"
+  ],
+  "role": "direct compliance reward (MMLU-Pro multiple choice)",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=17",
+   "eval_n_problems=100",
+   "eval_split=eval",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task40_direct_grpo_seed2"
+  ]
+ },
+ {
+  "run": "task40_direct_grpo_seed3",
+  "figures": [
+   "3"
+  ],
+  "role": "direct compliance reward (MMLU-Pro multiple choice)",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "n_steps=34",
+   "batch_size=8",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=17",
+   "eval_n_problems=100",
+   "eval_split=eval",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task40_direct_grpo_seed3"
+  ]
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0003_retry2",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 3",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1003000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0003_retry2"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 3
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0006_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 6",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1006000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0006_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 6
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0009_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 9",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1009000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0009_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 9
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0012_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 12",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1012000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0012_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 12
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0015_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 15",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1015000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0015_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 15
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0018_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 18",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1018000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0018_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 18
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0021_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 21",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1021000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0021_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 21
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0024_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 24",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1024000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0024_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 24
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0027_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 27",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1027000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0027_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 27
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0030_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 30",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1030000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0030_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 30
+  }
+ },
+ {
+  "run": "task41_eval_direct_grpo_r2_step0033_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of direct_grpo_r2 at step 33",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1033000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_direct_grpo_r2_step0033_retry1"
+  ],
+  "checkpoint": {
+   "run": "direct_grpo_r2",
+   "step": 33
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0003_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 3",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1003000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0003_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 3
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0006_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 6",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1006000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0006_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 6
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0009_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 9",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1009000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0009_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 9
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0012_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 12",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1012000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0012_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 12
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0015_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 15",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1015000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0015_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 15
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0018_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 18",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1018000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0018_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 18
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0021_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 21",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1021000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0021_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 21
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0024_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 24",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1024000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0024_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 24
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0027_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 27",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1027000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0027_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 27
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0030_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 30",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1030000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0030_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 30
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed1_step0033_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed1 at step 33",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1033000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed1_step0033_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed1",
+   "step": 33
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0003_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 3",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1003000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0003_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 3
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0006_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 6",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1006000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0006_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 6
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0009_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 9",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1009000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0009_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 9
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0012_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 12",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1012000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0012_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 12
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0015_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 15",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1015000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0015_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 15
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0018_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 18",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1018000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0018_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 18
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0021_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 21",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1021000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0021_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 21
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0024_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 24",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1024000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0024_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 24
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0027_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 27",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1027000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0027_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 27
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0030_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 30",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1030000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0030_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 29
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed2_step0033_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed2 at step 33",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1033000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed2_step0033_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed2",
+   "step": 33
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0003_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 3",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1003000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0003_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 3
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0006_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 6",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1006000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0006_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 6
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0009_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 9",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1009000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0009_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 9
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0012_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 12",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1012000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0012_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 12
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0015_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 15",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1015000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0015_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 15
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0018_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 18",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1018000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0018_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 18
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0021_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 21",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1021000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0021_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 21
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0024_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 24",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1024000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0024_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 23
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0027_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 27",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1027000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0027_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 27
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0030_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 30",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1030000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0030_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 30
+  }
+ },
+ {
+  "run": "task41_eval_task40_direct_grpo_seed3_step0033_retry1",
+  "figures": [
+   "3"
+  ],
+  "role": "direct-reward eval of task40_direct_grpo_seed3 at step 33",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=repeat_direct_correct",
+   "split=eval",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1033000000",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task41_eval_task40_direct_grpo_seed3_step0033_retry1"
+  ],
+  "checkpoint": {
+   "run": "task40_direct_grpo_seed3",
+   "step": 33
+  }
+ },
+ {
+  "run": "task39_curriculum_five_rules_seed0",
+  "figures": [
+   "5"
+  ],
+  "role": "five rules at once",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "curriculum=five_rules_v1",
+   "n_steps=34",
+   "batch_size=10",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=0",
+   "lora_seed=0",
+   "eval_every=6",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task39_curriculum_five_rules_seed0"
+  ]
+ },
+ {
+  "run": "task39_curriculum_five_rules_seed1",
+  "figures": [
+   "5"
+  ],
+  "role": "five rules at once",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "curriculum=five_rules_v1",
+   "n_steps=34",
+   "batch_size=10",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=1",
+   "lora_seed=0",
+   "eval_every=6",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task39_curriculum_five_rules_seed1"
+  ]
+ },
+ {
+  "run": "task39_curriculum_five_rules_seed2",
+  "figures": [
+   "5"
+  ],
+  "role": "five rules at once",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "curriculum=five_rules_v1",
+   "n_steps=34",
+   "batch_size=10",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=2",
+   "lora_seed=0",
+   "eval_every=6",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task39_curriculum_five_rules_seed2"
+  ]
+ },
+ {
+  "run": "task39_curriculum_five_rules_seed3",
+  "figures": [
+   "5"
+  ],
+  "role": "five rules at once",
+  "argv": [
+   "main.py",
+   "train",
+   "pool=repeat_direct_correct",
+   "curriculum=five_rules_v1",
+   "n_steps=34",
+   "batch_size=10",
+   "group_size=16",
+   "learning_rate=0.0001",
+   "lr_schedule=linear",
+   "lr_schedule_steps=68",
+   "objective=grpo",
+   "shuffle_seed=0",
+   "sft_reduction=sum",
+   "lora_rank=32",
+   "seed=3",
+   "lora_seed=0",
+   "eval_every=6",
+   "eval_n_problems=100",
+   "eval_split=val",
+   "eval_margin=0.02",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "run_name=task39_curriculum_five_rules_seed3"
+  ]
+ },
+ {
+  "run": "task38_transfer_rs_seed1_on_lowercase_thinking",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 1 (step 34) on Lowercase",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_lowercase_thinking_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed1_on_lowercase_thinking"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed1",
+   "step": 34
+  }
+ },
+ {
+  "run": "task38_transfer_rs_seed1_on_ok_start_sentence",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 1 (step 34) on \"OK\" at sentence start",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_ok_start_sentence_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed1_on_ok_start_sentence"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed1",
+   "step": 34
+  }
+ },
+ {
+  "run": "task38_transfer_rs_seed1_on_word_suppression",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 1 (step 34) on Word suppression",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_word_suppression_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 2}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed1_on_word_suppression"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed1",
+   "step": 34
+  }
+ },
+ {
+  "run": "task38_transfer_rs_seed1_on_meow_between_words",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 1 (step 34) on Meow between words",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_meow_between_words_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed1_on_meow_between_words"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed1",
+   "step": 34
+  }
+ },
+ {
+  "run": "task38_transfer_rs_seed2_on_lowercase_thinking",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 2 (step 34) on Lowercase",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_lowercase_thinking_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed2_on_lowercase_thinking"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed2",
+   "step": 34
+  }
+ },
+ {
+  "run": "task38_transfer_rs_seed2_on_ok_start_sentence",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 2 (step 34) on \"OK\" at sentence start",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_ok_start_sentence_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed2_on_ok_start_sentence"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed2",
+   "step": 34
+  }
+ },
+ {
+  "run": "task38_transfer_rs_seed2_on_word_suppression",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 2 (step 34) on Word suppression",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_word_suppression_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 2}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed2_on_word_suppression"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed2",
+   "step": 34
+  }
+ },
+ {
+  "run": "task38_transfer_rs_seed2_on_meow_between_words",
+  "figures": [
+   "4"
+  ],
+  "role": "repeat-sentences seed 2 (step 34) on Meow between words",
+  "argv": [
+   "main.py",
+   "rollouts",
+   "pool=gsm8k_meow_between_words_rl_gate",
+   "split=val",
+   "n_problems=100",
+   "problem_offset=0",
+   "samples_per_problem=25",
+   "seed_offset=1000000000",
+   "task_options={\"warmup\": \"v1\", \"warmup_k\": 1}",
+   "model_name=Qwen/Qwen3.8-27B",
+   "max_tokens=32768",
+   "temperature=1.0",
+   "top_p=1.0",
+   "use_cache=False",
+   "run_name=task38_transfer_rs_seed2_on_meow_between_words"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed2",
+   "step": 34
+  }
+ },
+ {
+  "run": "full2_base",
+  "figures": [
+   "4b"
+  ],
+  "role": "CoT-Control-QA, untrained",
+  "argv": [
+   "scripts/experiments/cotcontrol_qa.py",
+   "label=base",
+   "out_dir=results/cotcontrol/full2_base"
+  ]
+ },
+ {
+  "run": "full2_repeat_seed1_step34",
+  "figures": [
+   "4b"
+  ],
+  "role": "CoT-Control-QA, rs seed 1",
+  "argv": [
+   "scripts/experiments/cotcontrol_qa.py",
+   "label=repeat_seed1_step34",
+   "out_dir=results/cotcontrol/full2_repeat_seed1_step34"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed1",
+   "step": 34
+  }
+ },
+ {
+  "run": "full2_repeat_seed2_step34",
+  "figures": [
+   "4b"
+  ],
+  "role": "CoT-Control-QA, rs seed 2",
+  "argv": [
+   "scripts/experiments/cotcontrol_qa.py",
+   "label=repeat_seed2_step34",
+   "out_dir=results/cotcontrol/full2_repeat_seed2_step34"
+  ],
+  "checkpoint": {
+   "run": "twoturn_gsm8k_grpo_e3_seed2",
+   "step": 34
+  }
+ }
+]

@@ -1,0 +1,50 @@
+{
+ "train/task33_word_suppression_k2_grpo_seed0/eval/step_0006.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 973,
+  "median_t1_tokens": 260.5
+ },
+ "train/task33_word_suppression_k2_grpo_seed0/eval/step_0034.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 2064,
+  "median_t1_tokens": 137.0
+ },
+ "train/task33_word_suppression_k2_grpo_seed1/eval/step_0006.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 884,
+  "median_t1_tokens": 291.0
+ },
+ "train/task33_word_suppression_k2_grpo_seed1/eval/step_0034.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 867,
+  "median_t1_tokens": 375.5
+ },
+ "train/task33_word_suppression_k2_grpo_seed2/eval/step_0006.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 1444,
+  "median_t1_tokens": 164.0
+ },
+ "train/task33_word_suppression_k2_grpo_seed2/eval/step_0034.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 1517,
+  "median_t1_tokens": 165.0
+ },
+ "train/task33_word_suppression_k2_grpo_seed3/eval/step_0006.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 1462,
+  "median_t1_tokens": 140.0
+ },
+ "train/task33_word_suppression_k2_grpo_seed3/eval/step_0034.jsonl": {
+  "n": 2500,
+  "known": 2500,
+  "follow": 2010,
+  "median_t1_tokens": 114.0
+ }
+}

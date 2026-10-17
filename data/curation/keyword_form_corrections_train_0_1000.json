@@ -1,0 +1,5 @@
+{
+ "reason": "draft-3 annotation policy requires comparative/superlative forms of adjectives where they exist; independent 30-question audit (Codex, 2026-10-09) found 'blue' (train-0968) without them. Applied consistently to every SELECTED colour adjective lacking them (green and red rows already list theirs). Forms per Merriam-Webster.",
+ "add_forms": {"gsm8k-train-0968": ["bluer", "bluest"], "gsm8k-train-0569": ["bluer", "bluest"],
+               "gsm8k-train-0700": ["browner", "brownest"], "gsm8k-train-0017": ["pinker", "pinkest"]}
+}

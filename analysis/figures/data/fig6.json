@@ -1,0 +1,26 @@
+[
+ {
+  "label": "seed 0",
+  "dl": -123.5,
+  "dc": 43.6,
+  "kind": "seed"
+ },
+ {
+  "label": "seed 1",
+  "dl": 84.5,
+  "dc": -0.7,
+  "kind": "seed"
+ },
+ {
+  "label": "seed 2",
+  "dl": 1.0,
+  "dc": 2.9,
+  "kind": "seed"
+ },
+ {
+  "label": "seed 3",
+  "dl": -26.0,
+  "dc": 21.9,
+  "kind": "seed"
+ }
+]

@@ -1,0 +1,71 @@
+[project]
+name = "reward-laundering"
+version = "0.1.0"
+description = "Code and data for the reward-laundering experiments: GRPO through a self-verification gate on GSM8K"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.12"
+dependencies = [
+    "tinker==0.32.0",
+    "tinker-cookbook==0.5.7",
+    "torch>=2.10",
+    "chz>=0.4.0",
+    "python-dotenv>=1.0.0",
+    "aiofiles>=24.1.0",
+    "wandb>=0.30.0",
+]
+
+[dependency-groups]
+# the scripts around training: Docent export, CoT-Control-QA (its clone imports pandas, openai, aiohttp, tqdm), the
+# keyword annotator, the GSM8K builder and the figure analyses
+tools = [
+    "docent>=0.1.87",
+    "openai>=1.0.0",
+    "httpx>=0.28.1",
+    "aiohttp>=3.9.0",
+    "tqdm>=4.66.0",
+    "pandas>=2.0.0",
+    "numpy>=2.0.0",
+    "pyarrow>=15.0.0",
+]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "ruff>=0.11.0",
+    { include-group = "tools" },
+]
+
+[project.scripts]
+rl = "main:main"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["main"]
+
+[tool.setuptools.packages.find]
+include = ["src*"]
+
+[tool.setuptools.package-data]
+"src.utils" = ["pricing/*.json"]
+
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q -m 'not real_renderer'"
+asyncio_mode = "auto"
+markers = ["real_renderer: loads the real Qwen3.8 tokenizer from HF (opt-in: pytest -m real_renderer)"]
+# the docent package's own pydantic models (not this repo's code)
+filterwarnings = ["ignore:Support for class-based `config` is deprecated:DeprecationWarning"]
+
+[tool.ruff]
+line-length = 120

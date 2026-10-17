@@ -1,0 +1,3 @@
+{"reason": "known annotation defects of the previously inspected val[0:130] keywords, handled before their use as the word-suppression RL evaluation panel (2026-10-09): 'both' (val position of gsm8k-train-0337) is a function word, excluded; 'changes' removed from the money-change keyword of gsm8k-train-0300 (different sense); 'persons' added to gsm8k-train-0906 (same-sense plural), matching the train v2 corrections.",
+ "add_forms": {"gsm8k-train-0906": ["persons"]}, "remove_forms": {"gsm8k-train-0300": ["changes"]},
+ "exclude": {"gsm8k-train-0337": "function word 'both'"}}

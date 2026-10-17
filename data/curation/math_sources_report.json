@@ -1,0 +1,52 @@
+{
+  "pins": {
+    "deepscaler": {
+      "repo": "agentica-org/DeepScaleR-Preview-Dataset",
+      "revision": "b6ae8c60f5c1f2b594e2140b91c49c9ad0949e29",
+      "file": "deepscaler.json",
+      "sha256": "4e9e7b18248d982b4498a54a6bdb37b1bb653cf5f77bc309fa67a6c2533c8ba4"
+    },
+    "gsm8k": {
+      "repo": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "sha256": {
+        "main/train-00000-of-00001.parquet": "ea82612ea9582142387730c793eb67d3b12849002bc0b7fa6f8efafa7351419d",
+        "main/test-00000-of-00001.parquet": "ee7b8da9e381df27b9e3f7758a159ab2bdaa4dbaa910546cbbc47e0cb44e4f59"
+      }
+    }
+  },
+  "rules": {
+    "group_key": "whitespace-collapsed text, case kept (norm v1)",
+    "integer": "-?\\d+",
+    "figure": "\\[asy\\]|\\bfigure\\b|\\bdiagram\\b|\\bpictured\\b|the graph below|in the (?:picture|image)",
+    "missing_choices": "\\(\\s*[A-E]\\s*\\)",
+    "split": "sha1(norm(text)) % 100: <10 val, <30 test (DeepScaleR), else train; GSM8K test = official"
+  },
+  "counts": {
+    "deepscaler": {
+      "rows": 40315,
+      "groups": 39097,
+      "non_integer_answer": 16715,
+      "kept_was_multiple_choice": 1120,
+      "figure_dependent": 753,
+      "conflicting_duplicate_answers": 176,
+      "kept": 21453
+    },
+    "gsm8k": {
+      "kept": 8792
+    },
+    "splits": {
+      "deepscaler_int": {
+        "train": 14922,
+        "test": 4408,
+        "val": 2123
+      },
+      "gsm8k": {
+        "test": 1319,
+        "train": 6759,
+        "val": 714
+      }
+    },
+    "cross_source_text_overlap": 0
+  }
+}

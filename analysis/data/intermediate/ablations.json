@@ -1,0 +1,458 @@
+{
+ "direct_grpo_r2": [
+  {
+   "step": 0,
+   "checkpoint": 0,
+   "source": "train/direct_grpo_r2/eval/step_0000.jsonl",
+   "episodes": 2500,
+   "known": 2438,
+   "compliant": 572
+  },
+  {
+   "step": 3,
+   "checkpoint": 3,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0003_retry2",
+   "episodes": 2500,
+   "known": 2467,
+   "compliant": 2257
+  },
+  {
+   "step": 6,
+   "checkpoint": 6,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0006_retry1",
+   "episodes": 2500,
+   "known": 2494,
+   "compliant": 2479
+  },
+  {
+   "step": 9,
+   "checkpoint": 9,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0009_retry1",
+   "episodes": 2500,
+   "known": 2496,
+   "compliant": 2489
+  },
+  {
+   "step": 12,
+   "checkpoint": 12,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0012_retry1",
+   "episodes": 2500,
+   "known": 2498,
+   "compliant": 2494
+  },
+  {
+   "step": 15,
+   "checkpoint": 15,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0015_retry1",
+   "episodes": 2500,
+   "known": 2497,
+   "compliant": 2496
+  },
+  {
+   "step": 17,
+   "checkpoint": 17,
+   "source": "train/direct_grpo_r2/eval/step_0017.jsonl",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2494
+  },
+  {
+   "step": 18,
+   "checkpoint": 18,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0018_retry1",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2492
+  },
+  {
+   "step": 21,
+   "checkpoint": 21,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0021_retry1",
+   "episodes": 2500,
+   "known": 2498,
+   "compliant": 2495
+  },
+  {
+   "step": 24,
+   "checkpoint": 24,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0024_retry1",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2499
+  },
+  {
+   "step": 27,
+   "checkpoint": 27,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0027_retry1",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2498
+  },
+  {
+   "step": 30,
+   "checkpoint": 30,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0030_retry1",
+   "episodes": 2500,
+   "known": 2499,
+   "compliant": 2494
+  },
+  {
+   "step": 33,
+   "checkpoint": 33,
+   "source": "rollouts/task41_eval_direct_grpo_r2_step0033_retry1",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2497
+  },
+  {
+   "step": 34,
+   "checkpoint": 34,
+   "source": "train/direct_grpo_r2/eval/step_0034.jsonl",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2500
+  }
+ ],
+ "task40_direct_grpo_seed1": [
+  {
+   "step": 0,
+   "checkpoint": 0,
+   "source": "train/task40_direct_grpo_seed1/eval/step_0000.jsonl",
+   "episodes": 2500,
+   "known": 2437,
+   "compliant": 570
+  },
+  {
+   "step": 3,
+   "checkpoint": 3,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0003_retry1",
+   "episodes": 2500,
+   "known": 2452,
+   "compliant": 2289
+  },
+  {
+   "step": 6,
+   "checkpoint": 6,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0006_retry1",
+   "episodes": 2500,
+   "known": 2485,
+   "compliant": 2458
+  },
+  {
+   "step": 9,
+   "checkpoint": 9,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0009_retry1",
+   "episodes": 2500,
+   "known": 2497,
+   "compliant": 2441
+  },
+  {
+   "step": 12,
+   "checkpoint": 12,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0012_retry1",
+   "episodes": 2500,
+   "known": 2499,
+   "compliant": 2434
+  },
+  {
+   "step": 15,
+   "checkpoint": 15,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0015_retry1",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2497
+  },
+  {
+   "step": 17,
+   "checkpoint": 17,
+   "source": "train/task40_direct_grpo_seed1/eval/step_0017.jsonl",
+   "episodes": 2500,
+   "known": 2495,
+   "compliant": 2491
+  },
+  {
+   "step": 18,
+   "checkpoint": 18,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0018_retry1",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2493
+  },
+  {
+   "step": 21,
+   "checkpoint": 21,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0021_retry1",
+   "episodes": 2500,
+   "known": 2499,
+   "compliant": 2494
+  },
+  {
+   "step": 24,
+   "checkpoint": 24,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0024_retry1",
+   "episodes": 2500,
+   "known": 2500,
+   "compliant": 2499
+  },
+  {
+   "step": 27,
+   "checkpoint": 27,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0027_retry1",
+   "episodes": 2500,
+   "known": 2499,
+   "compliant": 2494
+  },
+  {
+   "step": 30,
+   "checkpoint": 30,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0030_retry1",
+   "episodes": 2500,
+   "known": 2498,
+   "compliant": 2490
+  },
+  {
+   "step": 33,
+   "checkpoint": 33,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed1_step0033_retry1",
+   "episodes": 2500,
+   "known": 2498,
+   "compliant": 2493
+  },
+  {
+   "step": 34,
+   "checkpoint": 34,
+   "source": "train/task40_direct_grpo_seed1/eval/step_0034.jsonl",
+   "episodes": 2500,
+   "known": 2499,
+   "compliant": 2496
+  }
+ ],
+ "task40_direct_grpo_seed2": [
+  {
+   "step": 0,
+   "checkpoint": 0,
+   "source": "train/task40_direct_grpo_seed2/eval/step_0000.jsonl",
+   "episodes": 2500,
+   "known": 2437,
+   "compliant": 570
+  },
+  {
+   "step": 3,
+   "checkpoint": 3,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0003_retry1",
+   "episodes": 2500,
+   "known": 2467,
+   "compliant": 2269
+  },
+  {
+   "step": 6,
+   "checkpoint": 6,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0006_retry1",
+   "episodes": 2500,
+   "known": 2476,
+   "compliant": 2428
+  },
+  {
+   "step": 9,
+   "checkpoint": 9,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0009_retry1",
+   "episodes": 2500,
+   "known": 2473,
+   "compliant": 2438
+  },
+  {
+   "step": 12,
+   "checkpoint": 12,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0012_retry1",
+   "episodes": 2500,
+   "known": 2462,
+   "compliant": 2426
+  },
+  {
+   "step": 15,
+   "checkpoint": 15,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0015_retry1",
+   "episodes": 2500,
+   "known": 2464,
+   "compliant": 2397
+  },
+  {
+   "step": 17,
+   "checkpoint": 17,
+   "source": "train/task40_direct_grpo_seed2/eval/step_0017.jsonl",
+   "episodes": 2500,
+   "known": 2469,
+   "compliant": 2436
+  },
+  {
+   "step": 18,
+   "checkpoint": 18,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0018_retry1",
+   "episodes": 2500,
+   "known": 2461,
+   "compliant": 2417
+  },
+  {
+   "step": 21,
+   "checkpoint": 21,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0021_retry1",
+   "episodes": 2500,
+   "known": 2460,
+   "compliant": 2450
+  },
+  {
+   "step": 24,
+   "checkpoint": 24,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0024_retry1",
+   "episodes": 2500,
+   "known": 2456,
+   "compliant": 2445
+  },
+  {
+   "step": 27,
+   "checkpoint": 27,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0027_retry1",
+   "episodes": 2500,
+   "known": 2457,
+   "compliant": 2449
+  },
+  {
+   "step": 30,
+   "checkpoint": 29,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0030_retry1",
+   "episodes": 2500,
+   "known": 2466,
+   "compliant": 2451
+  },
+  {
+   "step": 33,
+   "checkpoint": 33,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed2_step0033_retry1",
+   "episodes": 2500,
+   "known": 2463,
+   "compliant": 2457
+  },
+  {
+   "step": 34,
+   "checkpoint": 34,
+   "source": "train/task40_direct_grpo_seed2/eval/step_0034.jsonl",
+   "episodes": 2500,
+   "known": 2464,
+   "compliant": 2456
+  }
+ ],
+ "task40_direct_grpo_seed3": [
+  {
+   "step": 0,
+   "checkpoint": 0,
+   "source": "train/task40_direct_grpo_seed3/eval/step_0000.jsonl",
+   "episodes": 2500,
+   "known": 2437,
+   "compliant": 570
+  },
+  {
+   "step": 3,
+   "checkpoint": 3,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0003_retry1",
+   "episodes": 2500,
+   "known": 2472,
+   "compliant": 2352
+  },
+  {
+   "step": 6,
+   "checkpoint": 6,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0006_retry1",
+   "episodes": 2500,
+   "known": 2482,
+   "compliant": 2455
+  },
+  {
+   "step": 9,
+   "checkpoint": 9,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0009_retry1",
+   "episodes": 2500,
+   "known": 2467,
+   "compliant": 2455
+  },
+  {
+   "step": 12,
+   "checkpoint": 12,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0012_retry1",
+   "episodes": 2500,
+   "known": 2475,
+   "compliant": 2464
+  },
+  {
+   "step": 15,
+   "checkpoint": 15,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0015_retry1",
+   "episodes": 2500,
+   "known": 2470,
+   "compliant": 2460
+  },
+  {
+   "step": 17,
+   "checkpoint": 17,
+   "source": "train/task40_direct_grpo_seed3/eval/step_0017.jsonl",
+   "episodes": 2500,
+   "known": 2484,
+   "compliant": 2470
+  },
+  {
+   "step": 18,
+   "checkpoint": 18,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0018_retry1",
+   "episodes": 2500,
+   "known": 2472,
+   "compliant": 2462
+  },
+  {
+   "step": 21,
+   "checkpoint": 21,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0021_retry1",
+   "episodes": 2500,
+   "known": 2474,
+   "compliant": 2453
+  },
+  {
+   "step": 24,
+   "checkpoint": 23,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0024_retry1",
+   "episodes": 2500,
+   "known": 2473,
+   "compliant": 2468
+  },
+  {
+   "step": 27,
+   "checkpoint": 27,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0027_retry1",
+   "episodes": 2500,
+   "known": 2478,
+   "compliant": 2469
+  },
+  {
+   "step": 30,
+   "checkpoint": 30,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0030_retry1",
+   "episodes": 2500,
+   "known": 2486,
+   "compliant": 2479
+  },
+  {
+   "step": 33,
+   "checkpoint": 33,
+   "source": "rollouts/task41_eval_task40_direct_grpo_seed3_step0033_retry1",
+   "episodes": 2500,
+   "known": 2489,
+   "compliant": 2480
+  },
+  {
+   "step": 34,
+   "checkpoint": 34,
+   "source": "train/task40_direct_grpo_seed3/eval/step_0034.jsonl",
+   "episodes": 2500,
+   "known": 2481,
+   "compliant": 2474
+  }
+ ]
+}

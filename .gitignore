@@ -1,0 +1,28 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Local working folders, not part of the release
+agents/
+reward-laundering/
+reward-hijacking/
+docent_analyses/
+
+# Secrets
+.env
+
+# Runtime outputs
+file_cache/
+costs/
+results/
+
+# Third-party checkouts (CoT-Control clone for scripts/experiments/cotcontrol_*.py)
+/external
+tests/golden/golden.candidate.json
